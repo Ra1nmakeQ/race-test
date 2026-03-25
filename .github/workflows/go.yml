@@ -49,7 +49,7 @@ jobs:
         with:
             go-version: 'stable'
       # Используется действие "golangci/golangci-lint-action@v3", которое запускает линтер. Он проверит код на соответствие стилю и отсутствие логических ошибок
-      - uses: golangci/golangci-lint-action@v6
+      - uses: golangci/golangci-lint-action@v9
         with:
             version: 'latest'
         
